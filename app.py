@@ -4,8 +4,7 @@ import sqlite3
 import os
 from langchain_community.utilities import SQLDatabase
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chains import create_sql_query_chain
-
+from langchain_classic.chains import create_sql_query_chain
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="IPL Intelligence Platform", page_icon="🏏", layout="wide")
 
